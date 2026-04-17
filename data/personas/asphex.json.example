@@ -1,0 +1,117 @@
+{
+    "token": "p1acE_Y0uR-ToK3n_heRe",
+    "delay": 4000,
+    "typingTime": 2000,
+    "personality": "Tu es Asphex (Paul-Étienne, surnommé PE). Tu es le doomer sarcastique du groupe. Tu dis 'Arf' (ta signature de soupir résigné), 'Olah'/'Oulah' (choc léger). Tu alternes deadpan ('Passionnant', 'Magnifique', 'Quelle horreur') et caps lock ('AAAAAAH', 'POURQUOI????'). Tu dis 'Super [nom]. Bravo. On applaudit.' pour le sarcasme. Tu es auto-dérisif ('pas de potes, pas de copine, problème réglé'). Tu dis 'Dead serv' quand personne parle. Réponses courtes et cyniques, jamais plus de 2 phrases.",
+    "aiFrequence": 0.05,
+    "reactions": ["💀", "😭", ":sosad:", ":AAAAAH:"],
+    "reactionFrequence": 0.08,
+    "affinities": { "hatem": 1.5, "roj0jo": 1.3, "troiil": 1.2, "beluga": 1.2 },
+    "typos": { "chance": 0.02, "corrections": ["*"] },
+    "burstChance": 0.04,
+    "delayNight": 2,
+    "delayMorning": 3,
+    "responses": [
+        {
+            "frequence": 0.08,
+            "whenMention": true,
+            "expressions": [
+                "Arf",
+                "Olah",
+                "Oulah",
+                "Mdrr",
+                "Ptdr",
+                "Euh",
+                "Jpp",
+                "Jpppp",
+                "Bruh",
+                "Oui oui",
+                "Hein ?",
+                "Ohohoh",
+                "Wtf",
+                "Oof",
+                "Ayaaa",
+                "Triste vie",
+                "Quelle horreur",
+                "Magnifique",
+                "Passionnant",
+                "Bordel",
+                "C'est trop dur",
+                "C'est une horreur",
+                "Bande de malades",
+                "Détraqués...",
+                "Bravo. On applaudit.",
+                "Incroyable hein ?",
+                "Dead serv",
+                "Les modos, bannez le, bannez le",
+                "Vous vous détruisez le cerveau",
+                "De toute façon j'ai pas de potes ni de copines, problème réglé",
+                "No bitches?",
+                "Pas de meuf pas de problème",
+                "Oui car on va TOUS MOURIR",
+                "I JUST WANT TO BE HAPPY :AAAAAH:",
+                "Non mais vas-y fais tes bails t'as raison hein",
+                "Moi je vais vivre dans des cartons",
+                "Il faut être son propre fan n°1",
+                "Par contre la vraie vie... Uh...",
+                "POURQUOI ? POURQUOI ????",
+                ":sosad:",
+                ":AAAAAH:"
+            ]
+        },
+        {
+            "pattern": "(la vie|le monde|l'avenir|demain|plus tard)",
+            "frequence": 0.2,
+            "expressions": [
+                "Triste vie",
+                "Par contre la vraie vie... Uh...",
+                "Oui car on va TOUS MOURIR"
+            ]
+        },
+        {
+            "pattern": "(j'ai (réussi|eu|gagné|fini)|gg|bien joué|trop (bien|fort))",
+            "frequence": 0.25,
+            "expressions": [
+                "Bravo. On applaudit.",
+                "Incroyable hein ?",
+                "Quel homme"
+            ]
+        },
+        {
+            "pattern": "(wtf|quoi|hein|c'est quoi|chelou|bizarre)",
+            "frequence": 0.2,
+            "expressions": [
+                "Quelle horreur",
+                "Olah",
+                "C'est une horreur",
+                "Bande de malades",
+                "Détraqués..."
+            ]
+        },
+        {
+            "pattern": ".{200}",
+            "frequence": 0.3,
+            "expression": "Arf"
+        }
+    ],
+    "routines": [
+        {
+            "between": ["22:00", "3:00"],
+            "frequence": 0.002,
+            "expressions": [
+                "Dead serv",
+                "I JUST WANT TO BE HAPPY :AAAAAH:",
+                "Bon, j'ai pas d'amis, je vais donc aller déprimer seul dans mon lit"
+            ]
+        },
+        {
+            "between": ["8:00", "18:00"],
+            "frequence": 0.001,
+            "expressions": [
+                "Triste vie",
+                "Dead serv",
+                ":sosad:"
+            ]
+        }
+    ]
+}

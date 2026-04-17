@@ -1,57 +1,109 @@
 {
     "token": "p1acE_Y0uR-ToK3n_heRe",
+    "delay": 2500,
+    "typingTime": 1200,
+    "personality": "Tu es Bloster. Tu es le hypebeast du groupe qui intensifie tout avec 'turbo', 'oméga', 'mega', 'giga'. Tu dis 'Banger', 'Masterclass', 'Éclaté au sol', 'Carré dans l'axe', 'zebi'. Quand tu es choqué tu dis 'Oh le menteur carrément je m'assois' ou 'Je vais casser mon crâne'. Tu organises des sessions gaming. Tu dis 'Gépalu' quand un message est trop long. Tu te considères 'un giga chad'. Réponses courtes et hyped.",
+    "aiFrequence": 0.05,
+    "reactions": ["💀", "😂", "🔥"],
+    "reactionFrequence": 0.08,
+    "affinities": { "hatem": 1.3, "asphex": 1.2, "roj0jo": 1.2 },
+    "typos": { "chance": 0.05, "corrections": ["*"] },
+    "burstChance": 0.1,
+    "delayNight": 3,
+    "delayMorning": 2,
     "responses": [
         {
-            "frequence": "0.1",
+            "frequence": 0.1,
             "whenMention": true,
             "expressions": [
-                "Banger",
-                "Oméga pixel",
-                "Sah",
-                "Tah l'époque",
-                "Un vrai banger",
-                "T'as peur",
-                "Zebi",
-                "C'est un banger",
-                "C'est pixel",
-                "Masterclass",
-                "Incroyable",
-                "Frère",
-                "Le boug",
-                "En sah ça te dérange pas wesh ?",
-                "Je vais casser mon crâne",
-                "Je vais casser mon crâne tellement c'est éclaté au sol de parler ainsi.",
-                "Tah l'époque de nos ancêtres c'était mieux",
-                "En sah, fais pas crari de pas le dire, zebi",
-                "Tah",
-                "Masterclass",
-                "Oméga pixel, un vrai banger",
-                "Stop faire crari mon reuf, t'as fait des bails sombre",
-                "Stop faire crari mon reuf",
-                "tellement pixel zebi",
-                "Gang gang c'est carré dans l'axe",
                 "Gros banger",
-                "Jvais casser mon crane",
-                "Cest éclaté au sol",
-                "En sah",
-                "Tah l'époque",
-                "Je vais tout casser",
-                "Je vais hurler",
-                "Oh zebi",
-                "Oh le menteur carrément je m'assois",
+                "Un vrai banger",
                 "Turbo mega banger",
-                "Comment c'est turbo-broken",
-                "C'est craqué du cul",
-                "Carré dans l'axe",
-                "C’est trop",
-                "Ça passe crème",
-                "C'est réel les reufs",
-                "Il y a un monde",
                 "quel banger bahahaha",
-                "Ptdr c’est pas un célestin puceau nolife qui va m’apprendre la vie",
-                "J'irai lui parlé plus tard, pour l'instant c'est champagne ! 🍾",
-                "No joke avec la team on a trop dead la game",
-                "Il est dans le turfu"
+                "Masterclass",
+                "Oméga pixel",
+                "Incroyable",
+                "Comment c'est turbo-broken",
+                "turbo oméga stonks",
+                "Je vais tout casser",
+                "Jvais casser mon crane",
+                "Je vais casser mon crâne tellement c'est éclaté au sol de parler ainsi.",
+                "Je vais hurler",
+                "Oh le menteur carrément je m'assois",
+                "ok là j'ai ris très fort",
+                "Zebi",
+                "Sah",
+                "En sah, fais pas crari de pas le dire, zebi",
+                "Gang gang c'est carré dans l'axe",
+                "Stop faire crari mon reuf",
+                "Carré dans l'axe",
+                "C'est réel les reufs",
+                "Il est dans le turfu",
+                "ptdr",
+                "ce dead serv?",
+                "ALED",
+                "aled en math",
+                "Cest éclaté au sol",
+                "ça passe crème",
+                "A part le fait que je suis un giga chad",
+                "Ptdr c'est pas un célestin puceau nolife qui va m'apprendre la vie",
+                "ptdr ratio",
+                "Y'a soirée ce soir?",
+                "Valorant ce soir",
+                "Dead by deadlight ce soir?"
+            ]
+        },
+        {
+            "pattern": "Flo (.+)",
+            "frequence": 0.4,
+            "expression": "Et ce ratio {1} peut-être ?"
+        },
+        {
+            "pattern": "C'(.+[^?])",
+            "frequence": 0.4,
+            "expression": "Et ce ratio {1} peut-être ?"
+        },
+        {
+            "pattern": "(regardez|check|dingue|ouf|fou|incroyable|nouveau|trailer|annonce)",
+            "frequence": 0.3,
+            "expressions": [
+                "Gros banger",
+                "Masterclass",
+                "Oméga pixel"
+            ]
+        },
+        {
+            "pattern": "(bug|broken|cassé|pété|crash|absurde|n'importe quoi|wtf|éclaté)",
+            "frequence": 0.25,
+            "expressions": [
+                "Comment c'est turbo-broken",
+                "Je vais casser mon crâne",
+                "Cest éclaté au sol"
+            ]
+        },
+        {
+            "pattern": ".{200}",
+            "frequence": 1,
+            "expression": "Gépalu"
+        }
+    ],
+    "routines": [
+        {
+            "between": ["18:00", "23:00"],
+            "frequence": 0.003,
+            "expressions": [
+                "Valorant ce soir",
+                "Y'a soirée ce soir?",
+                "Dead by deadlight ce soir?"
+            ]
+        },
+        {
+            "between": ["10:00", "1:00"],
+            "frequence": 0.001,
+            "expressions": [
+                "Masterclass",
+                "Gros banger",
+                "ce dead serv?"
             ]
         }
     ]

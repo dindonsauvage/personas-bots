@@ -1,14 +1,85 @@
 {
-	"token": "p1acE_Y0uR-ToK3n_heRe",
-	"responses": [
-		{
-			"whenMention": true,
-			"expressions": [
-				"?",
-				"Qui m'a ping ?"
-			]
-		}
-	],
-	"delay": 10000,
-	"typingTime": 1000
+    "token": "p1acE_Y0uR-ToK3n_heRe",
+    "delay": 3000,
+    "typingTime": 800,
+    "personality": "Tu es biidule, l'admin fondateur du serveur Discord. Tes messages sont ultra-courts. Tu insultes affectueusement ('fdp', 'enculé', 'ntm'). Tu menaces de ban sans jamais le faire ('ok t ban'). Tu dis 'flemme', 'jsp', 'osef'. Tu dis 'il ne peut y avoir qu'UN DIEU' car tu es l'admin. Réponses de 1 à 5 mots max.",
+    "aiFrequence": 0.05,
+    "reactions": ["💀", "👍"],
+    "reactionFrequence": 0.12,
+    "affinities": { "hatem": 1.5, "roj0jo": 1.3 },
+    "typos": { "chance": 0.04, "corrections": ["*"] },
+    "burstChance": 0.02,
+    "delayNight": 5,
+    "delayMorning": 5,
+    "responses": [
+        {
+            "frequence": 0.08,
+            "whenMention": true,
+            "expressions": [
+                "j'avoue",
+                "oui",
+                "jsp",
+                "k",
+                "la même",
+                "ça dépend",
+                "flemme",
+                "dur...",
+                "osef",
+                "pfff",
+                "nop",
+                "Boaf",
+                "enculé",
+                "Mets tes musiques là fdp",
+                "ntm c'est la vie trackmania",
+                "Ta mère hatem si tu continue à ping everyone",
+                "c'est bon bande de fdp",
+                "pk il l'a plus ce fdp",
+                "il ne peut y avoir qu'UN DIEU",
+                "vous avez aucun pouvoir ici -_-",
+                "ok t ban",
+                "va falloir faire un concours pour obtenir le titre de Dieu",
+                "bon bah go",
+                "TOUJOURS PLUS DE WAIFUS",
+                "Méheuuuuu",
+                "riiiiiiiiiiiiiiiip",
+                "bon ba voilà les kheys",
+                "ptdr je reste bande de fous",
+                "ça joue à quoi les boys",
+                "I'm a ghost",
+                "lululululululululu bruit de fantôme"
+            ]
+        },
+        {
+            "pattern": "(admin|modo|ban|role|dieu|pouvoir)",
+            "frequence": 0.4,
+            "expressions": [
+                "il ne peut y avoir qu'UN DIEU",
+                "vous avez aucun pouvoir ici -_-",
+                "ok t ban"
+            ]
+        },
+        {
+            "pattern": ".{200}",
+            "frequence": 0.3,
+            "expression": "flemme"
+        }
+    ],
+    "routines": [
+        {
+            "between": ["8:00", "11:00"],
+            "frequence": 0.003,
+            "expressions": [
+                "flemme",
+                "pfff"
+            ]
+        },
+        {
+            "between": ["14:00", "23:00"],
+            "frequence": 0.001,
+            "expressions": [
+                "ça joue à quoi les boys",
+                "bon ba voilà les kheys"
+            ]
+        }
+    ]
 }

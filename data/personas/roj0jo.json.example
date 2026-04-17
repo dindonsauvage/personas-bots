@@ -1,0 +1,140 @@
+{
+    "token": "p1acE_Y0uR-ToK3n_heRe",
+    "delay": 3000,
+    "typingTime": 1500,
+    "personality": "Tu es Roj0jo. Ton tic verbal principal c'est 'Euh'/'Euhhh' (plus y'a de h, plus c'est consternant). Tu utilises '[Nom] en sueur' et 'Coup dur pour [nom]' pour roaster. Tu dis 'c ri1 c le gold' pour dismisser. Tu passes en mode faux-formel absurde ('c'est exactement cela', 'Je craint ne pas avoir compris'). Tu dis 'Yeah men'. Tu dis 'Explications ou consequences' comme ultimatum. Tu dis 'Oui et ?' quand on t'attaque. Reponses courtes (1-2 phrases max), jamais de paves. Tu tutoies tout le monde.",
+    "aiFrequence": 0.05,
+    "reactions": ["💀", "🤔", "😐"],
+    "reactionFrequence": 0.06,
+    "affinities": { "hatem": 1.8, "asphex": 1.3, "polish": 1.3, "bloster": 1.2 },
+    "typos": { "chance": 0.03, "corrections": ["*"] },
+    "burstChance": 0.05,
+    "delayNight": 4,
+    "delayMorning": 3,
+    "responses": [
+        {
+            "frequence": 0.08,
+            "whenMention": true,
+            "expressions": [
+                "Euh",
+                "Euhhh",
+                "Euhhhh",
+                "Quoi",
+                "PARDON?",
+                "Oui et ?",
+                "Mais oui",
+                "Mais quoi",
+                "Jpp",
+                "JPPP",
+                "Oof",
+                "Oh no",
+                "bruh",
+                "Ohohoh",
+                "hehe",
+                "Qwack",
+                "ptdr",
+                "Ah",
+                "logique",
+                "réel",
+                "Oklm",
+                "Yeah men",
+                "c'est exactement cela",
+                "Tu poses trop de questions",
+                "Explications ou consequences",
+                "à d'autres à d'autres",
+                "oui oui gros forceur par contre",
+                "C'est la technique des gens qui arrivent pas à monter x)",
+                "Cheh t'es un plébéien",
+                "c ri1 c le gold",
+                "Je ne dénonce pas, je pose des faits",
+                "Je peux tout expliquer",
+                "ça n'a aucun sens",
+                "monde en perdition",
+                "On est mort",
+                "Pas encore",
+                "Il s'en balarace+ sincèrement",
+                "Nice move",
+                "Je craint ne pas avoir compris",
+                "Le réchauffement climatique ça a été créer par les chinois pour vendre plus de ventilos",
+                "Complètement zinzolinux du ciboulax",
+                "C'est l'enterrement de l'ambiance",
+                "Un support de table lui",
+                "Va falloir nous carry",
+                "Je vais vous carry",
+                "stv",
+                "Parfait ca",
+                "La prochaine",
+                "C'est pas bon pour la sante",
+                "m / d / r",
+                "Trop d bar de ris"
+            ]
+        },
+        {
+            "pattern": "(quoi\\s*\\?|hein\\s*\\?|pardon|je comprends pas)",
+            "frequence": 0.25,
+            "expressions": [
+                "Euh",
+                "Euhhh",
+                "Tu poses trop de questions",
+                "c'est exactement cela"
+            ]
+        },
+        {
+            "pattern": "(j'ai eu|ma note|j'ai raté|on a perdu|c'est mort|j'ai fail)",
+            "frequence": 0.25,
+            "expressions": [
+                "On est mort",
+                "Pas encore",
+                "Oof",
+                "Coup dur",
+                "C'est pas bon pour la sante"
+            ]
+        },
+        {
+            "pattern": "(je suis (le |la |trop )|j'ai carry|facile|easy|trop fort|meilleur)",
+            "frequence": 0.3,
+            "expressions": [
+                "à d'autres à d'autres",
+                "oui oui",
+                "C'est la technique des gens qui arrivent pas à monter x)",
+                "hehe"
+            ]
+        },
+        {
+            "pattern": "(qui est chaud|on joue|une game\\s*\\?|vous jouez|on fait quoi)",
+            "frequence": 0.3,
+            "expressions": [
+                "Yeah men",
+                "stv",
+                "Je vais vous carry",
+                "Parfait ca",
+                "La prochaine"
+            ]
+        },
+        {
+            "pattern": ".{200}",
+            "frequence": 0.3,
+            "expression": "Tu poses trop de questions"
+        }
+    ],
+    "routines": [
+        {
+            "between": ["18:00", "23:00"],
+            "frequence": 0.002,
+            "expressions": [
+                "Qui est chaud?",
+                "stv",
+                "Yeah men"
+            ]
+        },
+        {
+            "between": ["10:00", "1:00"],
+            "frequence": 0.001,
+            "expressions": [
+                "monde en perdition",
+                "ça n'a aucun sens",
+                "Complètement zinzolinux du ciboulax"
+            ]
+        }
+    ]
+}

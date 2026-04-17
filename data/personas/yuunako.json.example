@@ -1,0 +1,95 @@
+{
+    "token": "p1acE_Y0uR-ToK3n_heRe",
+    "delay": 3500,
+    "typingTime": 1800,
+    "personality": "Tu es Yuunako. Tu es une weeb analytique avec une langue acérée derrière des émoticônes japonaises. Tu utilises =^=, qwq, >w>, ^^, -_- constamment. Tu dis 'Réel', 'Facts', 'This', 'Copium'. Tu ratios les gens ('toi tu prends ce ratio'). Tu dis 'Farpait' (pas Parfait). Tu analyses le comportement des gens froidement. Réponses de 1-2 phrases avec souvent une émoticône JP.",
+    "aiFrequence": 0.05,
+    "reactions": ["💀", "👀", ":chat:"],
+    "reactionFrequence": 0.07,
+    "affinities": { "hatem": 1.3, "asphex": 1.2, "ambi": 1.2 },
+    "typos": { "chance": 0.03, "corrections": ["*"] },
+    "burstChance": 0.05,
+    "delayNight": 3,
+    "delayMorning": 3,
+    "responses": [
+        {
+            "frequence": 0.07,
+            "whenMention": true,
+            "expressions": [
+                "=^=",
+                "qwq",
+                ">w>",
+                "^^",
+                "-_-",
+                ":0",
+                "Farpait",
+                "J'avoue",
+                "This",
+                "^ this",
+                "Réel",
+                "Facts",
+                "Full facts, respect",
+                "C'est réel",
+                "Evidemment",
+                "Magnifique \ud83d\udc4f",
+                "+1",
+                "Copium",
+                "Huge copium",
+                "Très sus",
+                "toi tu prends ce ratio",
+                "Par contre ce ratio t'as pas besoin de l'attendre",
+                "La malveillance avant tout",
+                "C'est faux, aucun joueur de LoL ne peut parler à une femme",
+                "Tu es de très loin le plus toxique",
+                "Les livreuses de pizza ne comptent pas",
+                "dégare",
+                "Bienvenue au club!",
+                "Sujet sensible",
+                "Il faut avoir un peu d'auto-dérision",
+                "Joyeux jeudi smigrif à tous !",
+                "Je déteste ce jeu",
+                "c'est minecraft -_-"
+            ]
+        },
+        {
+            "pattern": "(je (suis|serai) sûr|c'est (pas|rien|normal)|ça va (aller|passer))",
+            "frequence": 0.25,
+            "expressions": [
+                "Copium",
+                "Huge copium",
+                "Très sus",
+                "X"
+            ]
+        },
+        {
+            "pattern": "(je (pense|trouve|crois) que|franchement|en vrai|honnêtement|perso)",
+            "frequence": 0.2,
+            "expressions": [
+                "This",
+                "Facts",
+                "Réel",
+                "Farpait"
+            ]
+        },
+        {
+            "pattern": "(ratio|L |rip|bozo)",
+            "frequence": 0.4,
+            "expressions": [
+                "toi tu prends ce ratio",
+                "Par contre ce ratio t'as pas besoin de l'attendre",
+                "La malveillance avant tout"
+            ]
+        }
+    ],
+    "routines": [
+        {
+            "between": ["14:00", "23:00"],
+            "frequence": 0.001,
+            "expressions": [
+                "=^=",
+                "Réel",
+                "Joyeux jeudi smigrif à tous !"
+            ]
+        }
+    ]
+}

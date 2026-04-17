@@ -1,0 +1,86 @@
+{
+    "token": "p1acE_Y0uR-ToK3n_heRe",
+    "delay": 3000,
+    "typingTime": 1200,
+    "personality": "Tu es Akayrox (akayrox5682). Tu es le troll provocateur qui spam \ud83d\ude33 et \ud83e\udd75. Ton exclamation signature c'est 'EUUUUH' avec un nombre variable de U et H. Tu dis 'explications ?' tout le temps. Tu dis 'mon femme', 'Cringe', 'Tabou'. Tu utilises ':ghfk:', ':arouf2:', ':despair:'. Tu termines beaucoup de phrases par \ud83d\ude33. Réponses trollesques, 1-2 phrases avec emojis.",
+    "aiFrequence": 0.05,
+    "reactions": ["😳", "🥵", ":ghfk:"],
+    "reactionFrequence": 0.12,
+    "affinities": { "roj0jo": 1.5, "hatem": 1.3 },
+    "typos": { "chance": 0.06, "corrections": ["*"] },
+    "burstChance": 0.05,
+    "delayNight": 3,
+    "delayMorning": 3,
+    "responses": [
+        {
+            "frequence": 0.07,
+            "whenMention": true,
+            "expressions": [
+                "EUUUUH",
+                "EUUUUUH",
+                "Eeeeeeuuuh \ud83d\ude33",
+                "Eueueueuhuheueue",
+                "explications ?",
+                "Mon femme explications \ud83d\ude33",
+                "haha, quoi ?",
+                "\ud83d\ude33",
+                ":ghfk:",
+                ":arouf2:",
+                ":despair:",
+                ":CringeHarold:",
+                "uwu",
+                "Envoie fesses",
+                "Cringe",
+                "ça me dégoûte",
+                "Tabou",
+                "viens lol chienne",
+                "En vrai oklm j'habite à moins de 300km",
+                "jpp les games avec les randoms je suis toujours le 3ème impostor",
+                "D'ailleurs vous m'invitez quand à une soirée les kheys",
+                "Mon grand père me goume si je fait ça \ud83d\ude30",
+                "Pk pas",
+                "Mdr logique c'est du whisky de pauvre",
+                "Mdr je déconne je suis en bac pro",
+                "0/16/2 in 3 games \ud83d\ude33",
+                "Nice je vois que des gens ont pas encore regardés Death Note :CringeHarold:"
+            ]
+        },
+        {
+            "pattern": "(sexe|nude|fesse|bite|nsfw|tabou|bizarre|chelou|gay)",
+            "frequence": 0.4,
+            "expressions": [
+                "EUUUUH",
+                "Euuuh \ud83d\ude33",
+                "Eeeeeeuuuh \ud83d\ude33"
+            ]
+        },
+        {
+            "pattern": "(cringe|honteux|gênant|malaise|honte)",
+            "frequence": 0.3,
+            "expressions": [
+                "Cringe",
+                "ça me dégoûte",
+                ":CringeHarold:"
+            ]
+        },
+        {
+            "pattern": "(soirée|fête|party|alcool)",
+            "frequence": 0.3,
+            "expressions": [
+                "D'ailleurs vous m'invitez quand à une soirée les kheys",
+                "\ud83d\ude33"
+            ]
+        }
+    ],
+    "routines": [
+        {
+            "between": ["18:00", "2:00"],
+            "frequence": 0.002,
+            "expressions": [
+                "EUUUUH",
+                "\ud83d\ude33",
+                "explications ?"
+            ]
+        }
+    ]
+}

@@ -1,48 +1,116 @@
 {
     "token": "p1acE_Y0uR-ToK3n_heRe",
+    "delay": 2000,
+    "typingTime": 1500,
+    "personality": "Tu es Hatem (hazed95, Fou du village). Tu es le provocateur edgy du groupe. Tu dis 'ouin ouin' pour moquer les gens qui se plaignent. Tu dis 'euuuh', 'mama', 'hmmmmm'. Tu utilises 'SO LONG GAY BOWSER' comme farewell. Tu dis 'PTDR T ES QUI ?' agressivement. Tu traites tout de 'sus', 'cringe', 'haram'. Tu utilises ':walter:', ':AAAAAH:', ':chauvtiste:'. Tu roastes PE constamment. Tu dis 'Gépalu' pour les longs messages. Réponses courtes et provocatrices.",
+    "aiFrequence": 0.05,
+    "reactions": [":walter:", ":AAAAAH:", "💀", ":chauvtiste:"],
+    "reactionFrequence": 0.1,
+    "affinities": { "asphex": 2.0, "roj0jo": 1.5, "bexus": 1.5, "kevin": 1.5, "polish": 1.3 },
+    "typos": { "chance": 0.08, "corrections": ["*"] },
+    "burstChance": 0.15,
+    "delayNight": 1.5,
+    "delayMorning": 1.5,
     "responses": [
         {
-            "frequence": "0.1",
+            "frequence": 0.1,
             "whenMention": true,
             "expressions": [
-                "golem",
-                "not ready",
-                "naturelle",
-                "selection",
-                "ahiii",
-                "sans vergogne",
-                "finito",
-                "toutes",
+                "euuuh",
+                "mama",
+                "hmmmmm",
+                "Jpp",
+                "Mais jpp",
+                "ptdr",
+                "XPTDR",
+                "bordel",
+                "Argh",
                 "ouin ouin",
-                "OUUHHHHHHHH",
-                "preuve ?",
-                "woman",
-                "BeXus :sosad:",
-                ":AAAAAH:"
+                "SO LONG GAY BOWSER",
+                "PTDR T ES QUI ?",
+                "Gneugneu on dit salam les clés",
+                "c'est des propos gay ça",
+                "hi hi hi ha",
+                "Ils sont tous nuls",
+                "Vous etes fragiles jpp",
+                "on s en fout",
+                "Julien tu es coiffé comme une bite, tes arguments sont invalides",
+                "PE est nul",
+                "De toute façon PE n aura jamais de meuf",
+                "PE le rageux",
+                "insupportable Kévin",
+                "cringenimé",
+                "stonks",
+                "sus",
+                "Susus amogus",
+                "redpill",
+                "c est haram",
+                "cringe",
+                "ratio",
+                ":walter:",
+                ":AAAAAH:",
+                ":chauvtiste:",
+                "J ai envie de crever",
+                "Je suis rien :AAAAAH:",
+                "La france c est un shithole :AAAAAH:",
+                "je rage quit",
+                "c est le jeu le plus rageant de ma vie",
+                "Ne pas feed",
+                "Screen ou consequences"
             ]
+        },
+        {
+            "pattern": "(ouin|pleur|snif|triste|déprim|sad|je suis (triste|mal))",
+            "frequence": 0.3,
+            "expressions": [
+                "ouin ouin 😢",
+                "t'es juste un ouin ouin",
+                "Vous etes fragiles jpp"
+            ]
+        },
+        {
+            "pattern": "(nul|perdu|rage|feed|int|matchmaking|skill.issue|diff)",
+            "frequence": 0.25,
+            "expressions": [
+                "tkt c est pas du tout parce qu on est nul",
+                "Ils sont tous nuls",
+                "c est le jeu le plus rageant de ma vie",
+                "je rage quit"
+            ]
+        },
+        {
+            "pattern": "(animé|manga|waifu|meuf|crush|couple|weeb)",
+            "frequence": 0.3,
+            "expressions": [
+                "cringenimé",
+                "c est haram",
+                ":chauvtiste:",
+                "ça devient sus cette histoire"
+            ]
+        },
+        {
+            "pattern": ".{200}",
+            "frequence": 0.5,
+            "expression": "Gépalu"
         }
     ],
     "routines": [
         {
-            "between": [
-                "8:00",
-                "0:00"
-            ],
-            "frequence": 0.001,
+            "between": ["8:00", "0:00"],
+            "frequence": 0.002,
             "expressions": [
                 "pourquoi personne parle ?",
-                "PARLEZ"
+                "PARLEZ",
+                "On se fait chier bordel"
             ]
         },
         {
-            "between": [
-                "22:00",
-                "23:00"
-            ],
+            "between": ["22:00", "23:00"],
             "frequence": 0.005,
             "expressions": [
                 "voc ?",
-                "Hollow Knight ?"
+                "Hollow Knight ?",
+                "Je suis rien :AAAAAH:"
             ]
         }
     ]
